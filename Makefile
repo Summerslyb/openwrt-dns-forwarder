@@ -32,7 +32,7 @@ define Package/dns-forwarder
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Forwarding DNS queries on TCP transport
-	URL:=https://github.com/aa65535/hev-dns-forwarder
+	URL:=https://github.com/Summerslyb/hev-dns-forwarder
 endef
 
 define Package/dns-forwarder/description
