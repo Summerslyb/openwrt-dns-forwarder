@@ -3,37 +3,38 @@ DNS-Forwarder for OpenWrt
 
  [![Download][B]][2]
 
-¼ò½é
+ç®€ä»‹
 ---
 
- ±¾ÏîÄ¿ÊÇ [DNS-Forwarder][1] ÔÚ OpenWrt ÉÏµÄÒÆÖ²  
+ æœ¬é¡¹ç›®æ˜¯ [DNS-Forwarder][1] åœ¨ OpenWrt ä¸Šçš„ç§»æ¤  
+ å¯¹DNS-Forwarderå¢åŠ äº†ä¸Šæ¸¸æœåŠ¡å™¨çš„ç«¯å£è®¾ç½®, æºä¿®æ”¹ä¸ºForkä¿®æ”¹åçš„æºç 
 
-±àÒë
+ç¼–è¯‘
 ---
 
- - ´Ó OpenWrt µÄ [SDK][S] ±àÒë  
+ - ä» OpenWrt çš„ [SDK][S] ç¼–è¯‘  
 
    ```bash
-   # ÒÔ ar71xx Æ½Ì¨ÎªÀı
+   # ä»¥ ar71xx å¹³å°ä¸ºä¾‹
    tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
    cd OpenWrt-SDK-ar71xx-*
-   # »ñÈ¡ Makefile
-   git clone https://github.com/aa65535/openwrt-dns-forwarder.git package/dns-forwarder
-   # Ñ¡ÔñÒª±àÒëµÄ°ü Network -> dns-forwarder
+   # è·å– Makefile
+   git clone https://github.com/Summerslyb/openwrt-dns-forwarder.git package/dns-forwarder
+   # é€‰æ‹©è¦ç¼–è¯‘çš„åŒ… Network -> dns-forwarder
    make menuconfig
-   # ¿ªÊ¼±àÒë
+   # å¼€å§‹ç¼–è¯‘
    make package/dns-forwarder/compile V=99
    ```
 
-ÅäÖÃ
+é…ç½®
 ---
 
- - Ä¬ÈÏ DNS ·şÎñÆ÷¶Ë¿ÚÎª `5300`, ¿ÉÊ¹ÓÃ [LuCI][L] ½øĞĞÅäÖÃ  
+ - é»˜è®¤ DNS æœåŠ¡å™¨ç«¯å£ä¸º `5300`, å¯ä½¿ç”¨ [LuCI][L] è¿›è¡Œé…ç½®  
 
- - ½¨Òé×÷Îª [ChinaDNS][3] µÄÉÏÓÎ·şÎñÆ÷Ê¹ÓÃ, ÅäÖÃ·½·¨²Î¿¼ [Wiki][W]  
+ - å»ºè®®ä½œä¸º [ChinaDNS][3] çš„ä¸Šæ¸¸æœåŠ¡å™¨ä½¿ç”¨, é…ç½®æ–¹æ³•å‚è€ƒ [Wiki][W]  
 
 
- [1]: https://github.com/aa65535/hev-dns-forwarder
+ [1]: https://github.com/Summerslyb/hev-dns-forwarder
  [2]: https://github.com/aa65535/openwrt-dns-forwarder/releases/latest
  [3]: https://github.com/aa65535/openwrt-chinadns
  [B]: https://img.shields.io/github/release/aa65535/openwrt-dns-forwarder.svg
